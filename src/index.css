@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap'); 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply text-black;
+        font-family: 'Montserrat', sans-serif; 
+    }
+}
+
+
+.lester-shape {
+    border-radius: 100% 0% 43% 57% / 100% 100% 0% 0%    ;
+}

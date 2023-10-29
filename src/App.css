@@ -1,0 +1,64 @@
+.rotating-border {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid transparent;
+  animation: snake-rotation 3s infinite linear;
+}
+
+@keyframes snake-rotation {
+  0% {
+    border-color: transparent transparent transparent transparent;
+  }
+  25% {
+    border-color: transparent transparent transparent rgb(41, 207, 41);
+  }
+  50% {
+    border-color: transparent transparent rgb(41, 207, 41) rgb(41, 207, 41);
+  }
+  75% {
+    border-color: transparent rgb(41, 207, 41) rgb(41, 207, 41) rgb(41, 207, 41);
+  }
+  100% {
+    border-color: rgb(41, 207, 41) rgb(41, 207, 41) rgb(41, 207, 41) rgb(41, 207, 41);
+  }
+}
+
+@keyframes animatedGradient {
+  0% { border-color: #e5ff00; }
+  25% { border-color: #05bb14;}
+  50% { border-color: #147204; }
+  75% { border-color: #c5fc00}
+  100% { border-color: #07fd3c; }
+}
+
+.animated-gradient-border {
+  /* Set the initial border width and style */
+  border-width: 2px;
+  border-style: solid;
+
+  /* Set the background color */
+  background-color: transparent;
+
+  /* Set the animation properties */
+  animation: animatedGradient 3s linear infinite;
+}
+
+.bars-icon {
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .bars-icon {
+    display: block; 
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .htc {
+    width: 400px;
+    font-size: 14px;
+  }
+}
