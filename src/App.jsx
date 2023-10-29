@@ -11,7 +11,7 @@ import CreateSchedule from './pages/CreateSchedule';
 import CreateMatchResult from './pages/CreateMatchResult';
 import CreateSportEventResult from './pages/CreateSportEventResult';
 import CreateUser from './pages/CreateUser';
-import UpdateEvent from './pages/updateEvent';
+import UpdateEvent from './pages/UpdateEvent';
 import UpdateSportEvent from './pages/UpdateSportEvent';
 import UpdateSchedule from './pages/UpdateSchedule';
 import UpdateMatch from './pages/UpdateMatch';
